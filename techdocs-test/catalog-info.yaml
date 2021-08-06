@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'techdocs-testing'
+  description: 'Test repo'
+  annotations:
+    github.com/project-slug: jeannieism/techdocs-testomg
+    backstage.io/techdocs-ref: url:https://github.com/jeannieism/techdocs-testing
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: 'jeannieism'
